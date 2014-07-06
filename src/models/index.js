@@ -2,5 +2,5 @@ var mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/test');
 
 module.exports = {
-  User: require('./user.js')
+  AddModel: require('./addModel.js')(mongoose)
 }

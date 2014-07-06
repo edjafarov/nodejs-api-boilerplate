@@ -9,7 +9,6 @@ nconf.argv()
      .env()
      .file({ file: __dirname + '/config/' + APP_ENV + '.config.json' });
 
-
 // Setup app
 var express = require('express');
 var app = express();
